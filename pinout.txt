@@ -1,0 +1,15 @@
+Circuit pwr check-  E2    USB    E1
+                    3.3v         E0
+Circuit BUS SDB  -  D7           B1  - Button ENTER
+Circuit BUS SDA3 -  D3           B0  - Button DOWN
+Circuit BUS SDA2 -  D2           E3  - Circuit BUS SCL
+Circuit BUS SDA1 -  D1           A1
+Circuit BUS SDA0 -  D0           F4
+Peripherals SDA  -  SDA/A2       B2  - Button UP
+Peripherals SCL  -  SCL/A3       C6
+Circuit BUS SDA4 -  D4           F5
+Circuit BUS SDA5 -  D5           A0
+                    5V           GND
+                    RST          RST
+                    GND          RX/C5
+                    VIN          TX/C4

@@ -1,0 +1,3 @@
+[submodule "src/Protocols/I2C"]
+	path = src/Protocols/I2C
+	url = https://github.com/remiberthoz/I2Cnx
