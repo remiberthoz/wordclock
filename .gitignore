@@ -1,1 +1,4 @@
 build/
+hardware/**/*-backups
+hardware/**/fp-info-cache
+hardware/**/**.kicad_prl
