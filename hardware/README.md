@@ -3,7 +3,7 @@
 Contains both PCBs and mounting parts. PCBs ordered from JLCPCB, mounting parts
 laser-cut ordered from Sculpteo.
 
-* `led-matrix-pcbs`:
+* `led-matrix-pcbs` (pictures: [front with LEDs](../pictures/pcb-led-matrix-front-leds-soldered.jpg), [front without LEDs](../pictures/pcb-led-matrix-front.jpg), [back](../pictures/pcb-led-matrix-back.jpg)):
   * Main PCB, hosting the LEDs and the LED drivers. Each PCB contains 12 RGB
   LEDs in a 3x4 grid (36 LEDs total).
   * With 24 PCBs aranged in a 6x4 grid, one can get a 16x16 grid of RGB LEDs.
@@ -11,7 +11,7 @@ laser-cut ordered from Sculpteo.
   controlled by a I2C interface, for which pinout is available on the PCB. The
   I2C address of the driver can be adjusted via the ADR pin (see driver
   datasheet).
-* `led-matrix-bridge-pcbs`:
+* `led-matrix-bridge-pcbs` ([picture](../pictures/pcb-bridge-back.jpg)):
   * Connector PCB to join the `led-matrix-pcbs`. Each connector PCB can connect
   4 `led-matrix-pcbs` on a row.
   * This highly simplifies the I2C connections, the ADR configuration, and
