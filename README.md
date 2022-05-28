@@ -3,20 +3,21 @@
 This repository contains source code and CAD files to build and program a
 wordclock.
 
-![](pictures/front-off.jpg)
+![](pictures/front-on-time.jpg)
 
 
 The wordclock is designed inside an IKEA frame (SANNAHED, 25x25 cm). Behind the
 front glass panel, a black mask allows light through transparent letters which
 are individually backlighted with colour LEDs.
 
-![](pictures/front-on-time.jpg)
-
-
-The clock displayed in the picture above spells out the time in French, but
+The clock displayed in the picture above spells out the time in French
+(*il est midi moins cinq: it is five to noon*), but
 design can easily be adapted to other languages. In addition to time of the day,
 extra text for special days (*i.e.* birthdays) is highlighted in other colours.
+Letters can be used as pixels to display other forms of text. The picture below
+displays today's date (*Lun 18 04*: Monday *Lundi* the 18th of April).
 
+![](pictures/front-on-date.jpg)
 
 Lights are controlled via custom printed circuit boards, multichannel LED driver
 integrated circuits, and an Arduino Nano Every board breaking out a AVR XMEGA
