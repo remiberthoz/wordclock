@@ -49,7 +49,16 @@ Screws (vis-express):
 
 PCBs (JLCPCB):
   * 24x led-matrix-pcbs, FR4 1.6mm
+
+  | Matrix front (with LEDs) | Matrix front (without LEDs) | Matrix back |
+  |:-----------------:|:--------------------:|:----:|
+  | <img src="../pictures/pcb-led-matrix-front-leds-soldered.jpg" width=300> | <img src="../pictures/pcb-led-matrix-front.jpg" width=300> | <img src="../pictures/pcb-led-matrix-back.jpg" width=300> |
+
   * 6x led-matrix-bridge-pcbs, FR4 1.6mm
+
+  | Bridge, connects 4 `led-matrix-pcbs` together |
+  |:------:|
+  | <img src="../pictures/pcb-bridge-back.jpg" width="100%"> |
 
 Electronic components (ordered from Mouser and hand-solder, or assembled by JLCPCB):
 
@@ -88,3 +97,7 @@ XXXXXXXX||XXXXXXXX \light / XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       BB||BB                              \/                Screw bold
         ||
 ```
+
+![](../pictures/back-open-no-arduino.jpg)
+
+![](../pictures/back-open-arduino.jpg)
